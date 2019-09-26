@@ -1,0 +1,39 @@
+[submodule "AletheiaWareCommonJava"]
+	path = AletheiaWareCommonJava
+	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonJava
+[submodule "AletheiaWareCommonAndroid"]
+	path = AletheiaWareCommonAndroid
+	url = git@github.com:AletheiaWareLLC/AletheiaWareCommonAndroid
+[submodule "Alias"]
+	path = Alias
+	url = git@github.com:AletheiaWareLLC/Alias
+[submodule "AliasJava"]
+	path = AliasJava
+	url = git@github.com:AletheiaWareLLC/AliasJava
+[submodule "BC"]
+	path = BC
+	url = git@github.com:AletheiaWareLLC/BC
+[submodule "BCJava"]
+	path = BCJava
+	url = git@github.com:AletheiaWareLLC/BCJava
+[submodule "BCAndroid"]
+	path = BCAndroid
+	url = git@github.com:AletheiaWareLLC/BCAndroid
+[submodule "Finance"]
+	path = Finance
+	url = git@github.com:AletheiaWareLLC/Finance
+[submodule "FinanceJava"]
+	path = FinanceJava
+	url = git@github.com:AletheiaWareLLC/FinanceJava
+[submodule "JavaCommon"]
+	path = JavaCommon
+	url = git@github.com:AletheiaWareLLC/JavaCommon
+[submodule "Space"]
+	path = Space
+	url = git@github.com:AletheiaWareLLC/Space
+[submodule "SpaceJava"]
+	path = SpaceJava
+	url = git@github.com:AletheiaWareLLC/SpaceJava
+[submodule "SpaceAndroid"]
+	path = SpaceAndroid
+	url = git@github.com:AletheiaWareLLC/SpaceAndroid
