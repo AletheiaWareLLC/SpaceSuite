@@ -15,19 +15,18 @@
 # limitations under the License.
 
 set -e
-set -x
+#set -x
 
-(cd BC && ./build.sh --java_out=lite:../BCJava/source/)
-(cd Alias && ./build.sh --java_out=lite:../AliasJava/source/)
-(cd Finance && ./build.sh --java_out=lite:../FinanceJava/source/)
-(cd Space && ./build.sh --java_out=lite:../SpaceJava/source/)
+# Protobuf
+# Nothing to do
 
-(cd AletheiaWareCommonJava && ./build.sh)
-(cd BCJava && ./build.sh)
-(cd AliasJava && ./build.sh)
-(cd FinanceJava && ./build.sh)
-(cd SpaceJava && ./build.sh)
+# Java
+# Nothing to do
 
-(cd AletheiaWareCommonAndroid && ./gradlew build)
-(cd BCAndroid && ./gradlew build)
-(cd SpaceAndroid && ./gradlew build)
+# Gradle-based builds
+echo "*** Clean AletheiaWareCommonAndroid"
+(cd AletheiaWareCommonAndroid && ./gradlew clean)
+echo "*** Clean BCAndroid"
+(cd BCAndroid && ./gradlew clean)
+echo "*** Clean SpaceAndroid"
+(cd SpaceAndroid && ./gradlew clean)
